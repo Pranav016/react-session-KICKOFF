@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './LeagueCard.css';
 
 const LeagueCard = ({ id, logo, name, abbr }) => {
@@ -7,7 +8,9 @@ const LeagueCard = ({ id, logo, name, abbr }) => {
 			<span>
 				<img alt='LeagueImage' src={logo} />
 			</span>
-			<span>{abbr}</span>
+			<span>
+				<Link to={`/${id}`}>{abbr}</Link>
+			</span>
 			<span>{name}</span>
 		</div>
 	);

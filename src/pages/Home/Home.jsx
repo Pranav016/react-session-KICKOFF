@@ -4,11 +4,11 @@ import { useFootballContext } from '../../context/FootballContext';
 import './Home.css';
 
 const Home = () => {
-	const { leagues, getLeagues, setLeague } = useFootballContext();
+	const { leagues, getLeagues, setLeagues } = useFootballContext();
 	useEffect(() => {
 		getLeagues();
 		return () => {
-			setLeague([]);
+			setLeagues([]);
 		};
 	}, []);
 	return (

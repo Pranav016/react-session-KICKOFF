@@ -1,0 +1,20 @@
+.specificLeague {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 10px solid black;
+	width: 90vw;
+	margin: auto;
+	height: 50vh;
+}
+
+.specificLeague {
+	font-family: sans-serif;
+	font-size: 3vh;
+}
+
+.specificLeague img {
+	height: 30vh;
+	width: 30vh;
+}

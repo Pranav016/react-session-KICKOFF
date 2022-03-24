@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import FootballProvider from './context/FootballContext';
 import Home from './pages/Home/Home';
+import SpecificLeague from './pages/SpecificLeague/SpecificLeague';
 
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
-					<Route path='/' element={<Home />} />
+					<Route path='/' element={<Home />} index />
+					<Route path='/:leagueId' element={<SpecificLeague />} />
 				</Routes>
 				<div className='App'></div>
 			</BrowserRouter>
