@@ -1,0 +1,14 @@
+.league {
+	display: flex;
+	border: 5px solid black;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	width: 60vw;
+	margin: 2vh;
+	align-items: center;
+}
+
+.league img {
+	height: 120px;
+	width: 120px;
+}

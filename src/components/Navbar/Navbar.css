@@ -1,0 +1,13 @@
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	font-size: 7vh;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar .active {
+	text-decoration: underline;
+}
