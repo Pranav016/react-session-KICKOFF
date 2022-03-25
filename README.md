@@ -1,3 +1,17 @@
+# KICKOFF - Application for Football enthusiasts
+- This application is built using React.js, for a session that I took under Google Developer Student Club, Amity University Noida.
+- It provides all football related info such as leagues, standings, teams etc, via a Football API.
+
+**Application tutorial**- [Link (youtube)](https://youtu.be/8sdTy4YMOV0)
+
+**API used**- https://github.com/azharimm/football-standings-api
+
+![8sdTy4YMOV0-HD](https://user-images.githubusercontent.com/54665036/160176939-8a14824e-e86f-41ea-aee6-97c8d872dd6a.jpg)
+
+![Screenshot_2022-03-25-23-44-27-062_com google android youtube](https://user-images.githubusercontent.com/54665036/160178337-99ee7502-ebfb-434b-83e0-a4ac2a451acd.jpg)
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
